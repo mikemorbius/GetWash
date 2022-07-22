@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.header {
+  margin: 25px auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  padding: 14px 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  border: 1px solid #E9ECF5;
+  border-radius: 6px;
+}
+
+.container {
+  background-image: url(../files/phones.svg);
+  background-size: 534px;
+  background-repeat: no-repeat;
+}
+
+.context {
+  margin-top: 20px;
+  width: 620px;
+}
+.context h1 {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 125%;
+  color: #141B41;
+}
+.context p {
+  margin-top: 19px;
+  margin-bottom: 29px;
+  width: 524px;
+  font-weight: 350;
+  font-size: 24px;
+  line-height: 140%;
+  color: #72727E;
+}
+.context a {
+  padding: 14px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #EEEEEE;
+  background: #446DF6;
+  border-radius: 6px;
+}/*# sourceMappingURL=main.css.map */
